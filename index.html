@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archivo de Prueba</title>
+    
+    <style>
+        body {
+            background-color: rgb(43, 42, 42);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;      
+            min-height: 100vh;     
+
+            /* Estilos de texto */
+            font-family: "Trebuchet MS", sans-serif; 
+            color: rgb(223, 74, 0);
+            
+        }
+
+        h1 {           
+            font-size: 4em;
+            margin-top: 50px; 
+            margin-bottom: 10px;      
+        }
+        p {
+            font-size: 0.8em; /* Un tamaño más pequeño para los párrafos */
+        }
+        .galería {
+            display: flex;
+            flex-wrap: row;
+            justify-content: center; /* Centra las imágenes horizontalmente */
+            gap: 40px; /* Espacio entre las imágenes */
+            margin-top: 40px; /* Espacio entre el texto y la galería */
+        }
+        figure {
+            margin:0;
+            text-align: center; /* Centra el texto debajo de cada imagen */
+
+        }
+        figcaption {
+            margin-top: 10px; /* Espacio entre la imagen y su descripción */
+            font-size: 1em; /* Tamaño de fuente para las descripciones */
+            color: rgb(223, 74, 0); /* Color de texto para las descripciones */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>¡¡ Bienvenido a mi blog de fotos !!</h1>
+<h2>¡Aquí encontrarás una colección de mis fotos favoritas!</h2>
+<hr style="color:black; width: 100%">
+
+<div class ="galería">
+    <figure> 
+        <img src="./imagenes/IMG_1204.JPG" alt="Paisaje uno" width="250px" height="150px">
+        <figcaption>Atardecer en ciudad</figcaption>
+    </figure>
+    <figure>
+        <img src="./imagenes/IMG_1205.JPG" alt="Paisaje dos" width="250px" height="150px">
+        <figcaption>Paisaje montañoso</figcaption>
+    </figure>
+    <figure>
+        <img src="./imagenes/IMG_1206.JPG" alt="Paisaje tres" width="250px" height="150px">
+        <figcaption>Lago en zona rural</figcaption>
+    </figure>
+    <figure>
+        <img src="./imagenes/IMG_1207.JPG" alt="Paisaje cuatro" width="250px" height="150px">
+        <figcaption>Atardecer en montañas</figcaption>
+    </figure>   
+
+</div>
+<hr style="color:black; width: 100%; margin-top: 40px">
+
+<h3> ¡Aquí hay algunos enlaces útiles para ti! : </h3>
+
+<ul>
+    <li><a href="https://es.wikipedia.org/wiki/Lago" target="_blank" style="color: rgb(223, 74, 0);">Lagos</a></li>
+    <li><a href="https://ugc.berkeley.edu/background-content/mountain-building/" target="_blank" style="color: rgb(223, 74, 0);">Montañas</a></li>
+    <li><a href="https://www.travelstride.com/blog/the-15-most-beautiful-mountains-in-the-world" target="_blank" style="color: rgb(223, 74, 0);">Más montañas</a></li>
+</ul>
+
+
+</body>
+
+<p>¡Gracias por visitar mi blog de fotos! Espero que hayas disfrutado de la galería.</p>
+</html>
